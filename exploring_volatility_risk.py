@@ -1,3 +1,5 @@
+#An overview og 2 assets that offering a potential 8% return
+
 import numpy as np
 import matplotlib.pyplot as plt
 
