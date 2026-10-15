@@ -1,10 +1,6 @@
 #Defining our own function
 # def function_name(parameters) : #parameters = variable
 #     return (expression)
-    
-#Example01
-def convert_to_celcius(fahrenheit) : 
-    return (fahrenheit - 32) * 5 / 9 #four spaces! -> Python style
 
 #Using local variables for temporary storage
 def quadratic(a, b, c, x) : 
