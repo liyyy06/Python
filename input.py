@@ -1,15 +1,3 @@
-#Adding variables
-price = 10
-price = 20
-print(price) #Python execute code line by line
-
-#Example01 
-##We check in a patient named John Smith. 
-##He's 20 years old and is a new patient.
-full_name : "John Smith"
-age = 20
-is_new = True
-
 #Receiving input
 name = input("What is your name? ")
 print ("Hi " + name + "!") #expression by combining 2 strings
