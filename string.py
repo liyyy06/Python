@@ -7,6 +7,7 @@ How are you?
 Thank you,
 Jo
 """
+print(string)
 
 course = "Python"
 print(course[0])
