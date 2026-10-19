@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 rng = np.random.default_rng(7)
 mu = 1.08 ** (1/252) - 1 #8%
-days = 252 * 10 #10 tahun
+days = 252 * 10 #10 years
 
 A = rng.normal (mu, 0.0025, days)
 B = rng.normal (mu, 0.02, days)
