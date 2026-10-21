@@ -1,6 +1,6 @@
 # Arithmetic operations
 print(10 + 3) # addition
-print(10 - 3) # substraction
+print(10 - 3) # subtraction
 print(10 * 3) # multiplication
 print(10 / 3) # divison
 print(10 // 3) #integer
