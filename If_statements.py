@@ -28,3 +28,27 @@ if good_credit :
 else : 
     down_payment = 0.2 * price
 print(f"Down payment: {down_payment}") 
+
+# Example - pH level
+ph = float(input("Enter the pH level: "))
+print(ph)
+if ph < 7.0:
+    print(ph, "is acidic.")
+elif ph==7 : # is chechked only when the if condition above it evaluated to False
+    print(ph, "is neutral") 
+else:
+    print(ph, "is basic")
+
+# Example - compound
+comp = input("Enter the compound: ")
+print(comp)
+if comp == "H20":
+    print("Water")
+elif comp == "O2":
+    print("Oxygen")
+elif comp == "NH3":
+    print("Ammonia")
+elif comp == "CH4":
+    print("Methane")
+else:
+    print("Unknown compound.")
