@@ -31,8 +31,6 @@ if ready == "yes":
         score = score + b
     elif jawaban_1 == "c":
         score = score + c
-    else:
-        print("Jawaban tidak valid, skor tidak dihitung")
     print(f"Skor sementara: {score}")
     print(input("Tekan enter untuk ke soal selanjutnya"))
 
@@ -51,8 +49,6 @@ if ready == "yes":
         score = score + b
     elif jawaban_2 == "c":
         score = score + c
-    else:
-        print("Jawaban tidak valid, skor tidak dihitung")
     print(f"Skor sementara: {score}")
     print(input("Tekan enter untuk ke soal selanjutnya"))
 
@@ -64,15 +60,13 @@ if ready == "yes":
     jawaban_3 = input(">").lower()
     while jawaban_3 != "a" and jawaban_3 != "b" and jawaban_3 != "c":
         print("Jawaban harus berupa a, b atau c!")
-        jawaban_3b = input(">").lower()
+        jawaban_3 = input(">").lower()
     if jawaban_3 == "a":
         score = score + a
     elif jawaban_3 == "b":
         score = score + b
     elif jawaban_3 == "c":
         score = score + c
-    else:
-        print("Jawaban tidak valid, skor tidak dihitung")
     print(input("Tekan enter untuk mengetahui skor akhir dan risk profile"))
     print(f"Skor akhir: {score}")
 
