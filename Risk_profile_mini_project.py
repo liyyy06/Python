@@ -73,6 +73,8 @@ if ready == "yes":
         print("Category : Moderate")
     elif score in range (8,10):
         print("Category : Aggresive")
+    else : 
+        print("Skor tidak valid")
     print("Terima kasih, sampai jumpa!")
     
 elif ready == "no":
