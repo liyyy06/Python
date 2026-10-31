@@ -8,9 +8,13 @@ c = 3
 name = input("Enter your name: ")
 ready = input("Are you ready? *Please answer with yes or no^^*: ").lower()
 
+while ready != "yes" and ready != "no" :
+    print("Jawaban harus berupa yes atau no")
+    ready = input("Are you ready? *Please answer with yes or no^^*: ").lower()
+
 if ready == "yes":
     print(f" Hi {name}! Let's go!")
-    print(input("Tekan enter"))
+    print(input("Tekan enter untuk mengerjakan quiz!"))
     print("Please answer the question with a, b or c")
     print("""Jika nilai investasimu turun cukup banyak dalam waktu singkat, apa yang paling mungkin kamu lakukan?
     a. Menjual semuanya agar aman
@@ -19,13 +23,13 @@ if ready == "yes":
     """)
     jawaban_1 = input(">").lower()
     if jawaban_1 == "a":
-            score = score + a
+        score = score + a
     elif jawaban_1 == "b":
-            score = score + b
+        score = score + b
     elif jawaban_1 == "c":
-            score = score + c
+        score = score + c
     else:
-            print("??")
+        print("Jawaban tidak valid, skor tidak dihitung")
     print(f"Skor sementara: {score}")
     print(input("Tekan enter untuk ke soal selanjutnya"))
 
@@ -36,13 +40,13 @@ if ready == "yes":
     """)
     jawaban_2 = input(">").lower()
     if jawaban_2 == "a":
-            score = score + a
+        score = score + a
     elif jawaban_2 == "b":
-            score = score + b
+        score = score + b
     elif jawaban_2 == "c":
-            score = score + c
+        score = score + c
     else:
-            print("??")
+        print("Jawaban tidak valid, skor tidak dihitung")
     print(f"Skor sementara: {score}")
     print(input("Tekan enter untuk ke soal selanjutnya"))
 
@@ -53,13 +57,13 @@ if ready == "yes":
         """)
     jawaban_3 = input(">").lower()
     if jawaban_3 == "a":
-                score = score + a
+        score = score + a
     elif jawaban_3 == "b":
-                score = score + b
+        score = score + b
     elif jawaban_3 == "c":
-                score = score + c
+        score = score + c
     else:
-                print("??")
+        print("Jawaban tidak valid, skor tidak dihitung")
     print(input("Tekan enter untuk mengetahui skor akhir dan risk profile"))
     print(f"Skor akhir: {score}")
 
@@ -69,7 +73,7 @@ if ready == "yes":
         print("Category : Moderate")
     elif score in range (8,10):
         print("Category : Aggresive")
+    print("Terima kasih, sampai jumpa!")
     
-
 elif ready == "no":
     print("Baik, sampai jumpa!")
