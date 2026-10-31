@@ -22,6 +22,9 @@ if ready == "yes":
     c. Membeli lebih banyak
     """)
     jawaban_1 = input(">").lower()
+    while jawaban_1 != "a" and jawaban_1 != "b" and jawaban_1 != "c":
+        print("Jawaban harus berupa a, b atau c!")
+        jawaban_1 = input(">").lower()
     if jawaban_1 == "a":
         score = score + a
     elif jawaban_1 == "b":
@@ -39,6 +42,9 @@ if ready == "yes":
     c. Keuntungan sebesar-besarnya
     """)
     jawaban_2 = input(">").lower()
+    while jawaban_2 != "a" and jawaban_2 != "b" and jawaban_2 != "c":
+        print("Jawaban harus berupa a, b atau c!")
+        jawaban_2 = input(">").lower()
     if jawaban_2 == "a":
         score = score + a
     elif jawaban_2 == "b":
@@ -56,6 +62,9 @@ if ready == "yes":
         c. Masuk dengan cukup besar
         """)
     jawaban_3 = input(">").lower()
+    while jawaban_3 != "a" and jawaban_3 != "b" and jawaban_3 != "c":
+        print("Jawaban harus berupa a, b atau c!")
+        jawaban_3b = input(">").lower()
     if jawaban_3 == "a":
         score = score + a
     elif jawaban_3 == "b":
